@@ -27,7 +27,6 @@ Install dependencies:
 ```bash
 pip install flask scikit-learn pandas numpy
 ```
-<<<<<<< HEAD
 
 ## 🚀 Running the App
 1. Ensure the following files exist inside the models/ directory: ridge.pkl, scaler.pkl
@@ -41,15 +40,6 @@ python application.py
 ```bash
 http://127.0.0.1:5000/predictdata
 ```
-=======
-🚀 Running the App
-1. Ensure the following files exist inside the models/ directory: ridge.pkl, scaler.pkl
-
-2. Start the Flask application: ```python application.py```
-
-3. Open a browser and go to: ```http://127.0.0.1:5000/predictdata```
-    This will load the input form for prediction.
->>>>>>> aea4a61f289742020fab1251bbb7cb3de5f4337c
 
 ## 🧠 Model Inputs
 The form accepts the following 11 numerical inputs:
@@ -84,8 +74,4 @@ Server-side validation is included to help catch input issues.
 
 2. A POST request processes the form data, makes the prediction, and returns the result in the same template.
 
-<<<<<<< HEAD
 3. index.html is referenced but not included — you can customize it as a landing page.
-=======
-index.html is referenced but not included — you can customize it as a landing page.
->>>>>>> aea4a61f289742020fab1251bbb7cb3de5f4337c
