@@ -29,9 +29,9 @@ pip install flask scikit-learn pandas numpy
 🚀 Running the App
 1. Ensure the following files exist inside the models/ directory: ridge.pkl, scaler.pkl
 
-2. Start the Flask application: ```bash python application.py```
+2. Start the Flask application: ```python application.py```
 
-3. Open a browser and go to: ```bash http://127.0.0.1:5000/predictdata```
+3. Open a browser and go to: ```http://127.0.0.1:5000/predictdata```
     This will load the input form for prediction.
 
 🧠 Model Inputs
